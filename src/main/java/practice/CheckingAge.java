@@ -14,7 +14,7 @@ public class CheckingAge {
             System.out.println("You are able to smoke legally in South Korea");
         }
         else {
-            System.out.println("You are legally not able to smoke in South Korea");
+            System.out.println("It is illegal for you to smoke in South Korea");
         }
 
     }
