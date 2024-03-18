@@ -11,6 +11,6 @@ public class Multiplying {
         y=in.nextInt();
         z=x*y;
         System.out.println("your resulting multiplied number is " + z);
-
+        in.close();
     }
 }
