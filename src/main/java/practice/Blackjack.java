@@ -10,7 +10,7 @@ public class Blackjack {
                         System.out.println("Type in a number between 0 to 13");
                         if (usernumber == 21){
                             Scanner in = new Scanner(System.in);
-                            x =
+
                             System.out.println("You win");
 
                         }
