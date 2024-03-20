@@ -16,6 +16,5 @@ public class TriangleWithStars {
             }
             System.out.println();
         }
-
     }
 }
