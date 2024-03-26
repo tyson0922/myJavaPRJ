@@ -16,6 +16,8 @@ public class TriangleWithStar {
             }
         }
         System.out.println();
+
+
         for (a = 1; a < 8; a++) {
             b = 8 - a;
             c = Math.abs((b - a) / 2);
