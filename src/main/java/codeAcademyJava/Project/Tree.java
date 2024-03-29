@@ -1,4 +1,4 @@
-package codeAcademyJava;
+package codeAcademyJava.Project;
 
 public class Tree {
     public static void main(String[] args){
