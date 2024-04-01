@@ -1,4 +1,4 @@
-package codeAcademyJava.Practice;
+package codeAcademyJava.Practice.practice0331;
 
 public class Song {
     public static void main(String[] args) {
