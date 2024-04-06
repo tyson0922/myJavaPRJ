@@ -3,23 +3,36 @@ package codeAcademyJava.Practice.practice0404;
 public class Store {
     // instance fields
     String productType;
-    int inventoryCount;
-    double inventoryPrice;
-
+    double price;
 
     // constructor method
-    public Store(String product, int count, double price) {
+    public Store(String product, double initialPrice) {
         productType = product;
-        inventoryCount = count;
-        inventoryPrice = price;
+        price = initialPrice;
+    }
+
+    // increase price method
+    public void increasePrice(double priceToAdd) {
+        double newPrice = price + priceToAdd;
+        price = newPrice;
+    }
+
+    // get price with tax method
+    public double getPriceWithTax() {
+        double tax = 0.08;
+        double totalPrice = price + price * tax;
+        return totalPrice;
+    }
+
+    public String toString() {
+        return "This store sells " + productType + " at a price of " + price + ".";
     }
 
     // main method
     public static void main(String[] args) {
-        Store cookieShop = new Store("cookies", 12, 3.75);
-        System.out.println(cookieShop.productType);
-        System.out.println(cookieShop.inventoryCount);
-        System.out.println(cookieShop.inventoryPrice);
-
+        Store lemonadeStand = new Store("Lemonade", 3.75);
+        Store cookieShop = new Store("Cookies", 5);
+        System.out.println(lemonadeStand);
+        System.out.println(cookieShop);
     }
 }
