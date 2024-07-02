@@ -20,5 +20,4 @@ public class Test05201 {
         AppleTree s = new AppleTree();
         s.setTree("노란색");
     }
-
 }
